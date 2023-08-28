@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+
+book:nth-child(odd) {
+    background-color: lightblue;
+}
+
+title {
+    color: red;
+    font-weight: bold;
+    display: block;
+}
+
+publisher {
+    display: block;
+}
+
+book {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+}
