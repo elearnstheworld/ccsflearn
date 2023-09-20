@@ -39,7 +39,7 @@
                             <xsl:text>, and </xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of select="concat(Name/First, ' ', Name/Last), ','"/>
+                            <xsl:value-of select="concat(Name/First, ' ', Name/Last), '.'"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:for-each>
