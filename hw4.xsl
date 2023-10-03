@@ -6,7 +6,7 @@
             <head>
                 <meta charset="UTF-8"/>
                 <meta name="description" content="ABC Financial Startup Client Information"/>
-                <title>ABC Financial Startup</title>
+                <title>ABC Financial Startup 2</title>
                 <style>
                     h1 {
                         text-align: center;
