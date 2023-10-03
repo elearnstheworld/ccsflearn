@@ -20,7 +20,7 @@
             <body>
                 <h1>ABC Financial Startup 2</h1>
                 <img src="financialstartup.jpg" alt="ABC Financial Startup Logo" />
-                <p>We are a very young financial manager company and we are proud of our clients</p>
+                <p>We can't are a very young financial manager company and we are proud of our clients</p>
                 <p>We have started with 1 client a little bit more than 10 years ago and now we have <xsl:value-of select="count(Client)"/> clients!</p>
                 <p>
                     These are our clients: 
