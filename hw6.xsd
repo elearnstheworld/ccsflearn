@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Member">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="Name" minOccurs="1" maxOccurs="1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="30"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="Age" minOccurs="0" default="21">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:minInclusive value="21"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="Job" minOccurs="1" maxOccurs="1"/>
+
+                <xs:element name="Date" minOccurs="1" maxOccurs="1"/>
+
+                <xs:element name="Phone" type="phoneTypeCast" minOccurs="1" maxOccurs="1"/>
+            
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="phoneTypeCast">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
