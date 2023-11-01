@@ -1,0 +1,26 @@
+@namespace west url(http://www.gov.org/west);
+@namespace east url(http://www.gov.org/east);
+
+state {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #D3D3D3; 
+}
+
+state name, state capital {
+    display: inline;
+    margin-right: 10px;
+}
+
+west|state {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #90EE90; 
+}
+
+west|name, west|capital {
+    display: inline;
+    margin-right: 10px;
+}
