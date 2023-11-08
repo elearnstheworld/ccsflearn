@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XQuery Research Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333366;
+        }
+        p {
+            text-align: justify;
+        }
+        code {
+            font-family: monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 5px;
+            margin: 0 2px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>XQuery Research Report</h1>
+
+    <h2>Summary</h2>
+    <p>
+        XQuery is a versatile language used primarily for querying and interacting with data stored in the XML. As data becomes increasingly complex and hierarchically structured, the need for a tool capable of parsing such nested data stuctures arises.
+    </p>
+
+    <h2>Introduction to XQuery</h2>
+    <p>
+        At its core, XQuery is about specificity and precision. Its design allows users to write concise queries that can delve deep into complex XML documents to retrieve just the necessary information. It splices. It Dices.
+
+    <h2>XQuery in Action: Analysis of hw8.xq</h2>
+    <p>
+        It operates on the `hw8.xml` dataset, which contains a collection of books with varying attributes:
+        <ol>
+            <li>It selects all book elements within the bookstore context.</li>
+            <li>It filters the book elements based on the criterion of the book's price being less than 30.</li>
+            <li>It returns the title elements of these filtered books.</li>
+        </ol>
+    </p>
+    <p>
+        The result of this XQuery script is a list of affordable books, based on the price threshold provided. This selection process highlights XQuery's capability to filter and sort data in an XML document effectively.
+    </p>
+
+    <h2>Understanding XQIB</h2>
+    <p>
+        XQIB, or XQuery allows for client-side browser scripting. Traditionally, XML data processing required server-side resources, but with XQIB, web applications.
+    </p>
+
+    <h2>References</h2>
+    <ul>
+        <li>https://www.w3.org/TR/xquery/</li>
+        <li>https://en.wikipedia.org/wiki/XQuery</li>
+    </ul>
+
+</body>
+</html>
