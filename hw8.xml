@@ -34,12 +34,13 @@
 
     <h2>Summary</h2>
     <p>
-        XQuery is a versatile language used primarily for querying and interacting with data stored in the XML. As data becomes increasingly complex and hierarchically structured, the need for a tool capable of parsing such nested data stuctures arises.
+        XQuery is a versatile language used primarily for querying and interacting with data stored in the XML. As data becomes increasingly complex and hierarchically structured, the need for a tool capable of parsing nested data.
     </p>
 
     <h2>Introduction to XQuery</h2>
     <p>
-        At its core, XQuery is about specificity and precision. Its design allows users to write concise queries that can delve deep into complex XML documents to retrieve just the necessary information. It splices. It Dices.
+        At its core, XQuery is about specificity and precision. Its design allows users to write concise queries that can delve deep into complex XML documents to retrieve just the necessary information required. It splices. It dices.
+    </p>
 
     <h2>XQuery in Action: Analysis of hw8.xq</h2>
     <p>
@@ -51,18 +52,18 @@
         </ol>
     </p>
     <p>
-        The result of this XQuery script is a list of affordable books, based on the price threshold provided. This selection process highlights XQuery's capability to filter and sort data in an XML document effectively.
+        The result of this XQuery script is a list of affordable books, based on the price threshold provided. This selection process highlights XQuery's capability to filter and sort data in an XML.
     </p>
 
     <h2>Understanding XQIB</h2>
     <p>
-        XQIB, or XQuery allows for client-side browser scripting. Traditionally, XML data processing required server-side resources, but with XQIB, web applications.
-    </p>
+        XQIB, or XQuery In the Browser that allows for client-side browser scripting. Previously, XML data processing required server-side resources, but with XQIB, web applications can now use XQuery directly within the clients browser.
+    </p> 
 
     <h2>References</h2>
     <ul>
-        <li>https://www.w3.org/TR/xquery/</li>
-        <li>https://en.wikipedia.org/wiki/XQuery</li>
+        <li><a href="https://www.w3.org/TR/xquery/">W3C XQuery 1.0: An XML Query Language, W3C Recommendation</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/XQuery">XQuery on Wikipedia</a></li>
     </ul>
 
 </body>
